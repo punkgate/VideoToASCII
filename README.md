@@ -21,7 +21,7 @@ This project uses `p5.js` to convert video input into ASCII art, supporting both
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/video-to-ascii.git
+   git clone https://github.com/punkgate/video-to-ascii.git
    ```
 2. Install `p5.js` in your development environment.
 3. Run the project in a local server environment.
