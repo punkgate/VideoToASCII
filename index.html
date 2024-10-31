@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video to ASCII-2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Video to ASCII Converter (Better)</h1>
+  <div id="menu">
+    <button id="realtime-btn">Real-Time (Webcam)</button>
+    <button id="upload-btn">Upload and Render Video</button>
+    <input type="file" id="file-input" accept="video/mp4" style="display:none;">
+  </div>
+  <div id="ascii-container">
+    <div id="ascii-output"></div>
+  </div>
+  <button id="home-btn" style="display: none;">Home</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
